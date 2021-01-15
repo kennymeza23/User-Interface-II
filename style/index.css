@@ -1,1 +1,25 @@
 /* Add CSS styling here */
+*{
+    border:1px solid black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+header{
+    background:url(https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1134&q=80);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100%;
+}
+h1{
+    font-family: 'Playball', cursive;
+    color:white;
+}
+.headerPic a{
+    display:inline-block;
+    font-size:larger;
+    border:1px solid white;
+    width:100px;
+    padding:10px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+}
