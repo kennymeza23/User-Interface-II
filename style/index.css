@@ -1,1 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* Add CSS styling here */
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.mainContainer{
+    margin:auto;
+    font-family: 'Source Code Pro', monospace;
+    background-color:#08072E;
+    color:white;
+}
+header{
+    background:url(https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1134&q=80);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:25vh;
+}
+h1{
+    font-family: 'Playball', cursive;
+    color:white;
+    margin-left:20px;
+    font-size:4rem;
+    padding:25px;
+}
+.headerPic a{
+    display:inline-block;
+    font-size:larger;
+    border:1px solid white;
+    width:100px;
+    padding:10px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    margin-bottom:0px;
+    transition:.3s;
+}
+.headerPic a:hover{
+    color:black;
+    background:white;
+}
+.profilePic{
+    margin:20px;
+    width:50%;
+    margin:50px;
+    border:1px solid white;
+}
+.profilePic img{
+    width:100%;
+    height:100%;
+}
+.description{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    justify-content:center;
+    text-align:center;
+}
+h2{
+    font-size:3rem;
+    font-family: 'Playball', cursive;
+    text-align:center;
+}
+.description p{
+    width:100%;
+    margin:20px;
+    text-align:center;
+    font-size:2rem;
+}
+.container{
+    display:flex;
+}
+.galleryImages{
+    display:flex;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+    flex-wrap:wrap;
+    width:100%;
+    height:50vh;
+}
+.image{
+    background:url(https://picsum.photos/150);
+    height:300px;
+    width:300px;
+    padding:10px;
+    border-radius:10px;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    border: 1px solid white;
+}
+.text{
+    font-family:arial;
+    font-size:1.2rem;
+    opacity:0;
+    transition:.3s;
+}
+.text a{
+    text-decoration:none;
+    color:white;
+    text-shadow:1px 1px black;
+}
+.image:hover .text{
+    opacity:1;
+}
+footer{
+    background:url(https://images.unsplash.com/photo-1515896769750-31548aa180ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1134&q=80);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:25vh;
+}
+.footerPic a{
+    display:inline-block;
+    font-size:larger;
+    border:1px solid white;
+    width:100px;
+    padding:10px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    margin-left:350px;
+    margin-bottom:0px;
+    margin-top:20px;
+    transition:.3s;
+}
+.footerPic a:hover{
+    color:black;
+    background:white;
+}
+h3{
+    display:block;
+    font-family: 'Playball', cursive;
+    color:white;
+    margin-left:20px;
+    font-size:4rem;
+    padding:25px;
+    text-align:center;
+}
